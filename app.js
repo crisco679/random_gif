@@ -7,7 +7,7 @@ $(function(){
       var randomGif = response.data;
       console.log(response);
       console.log(randomGif.image_url);
-      $(".gif").append("<img src =" + randomGif.image_url + ">");
+      $(".gif").html("<img src =" + randomGif.image_url + ">");
     });
   });
 
